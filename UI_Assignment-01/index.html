@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UI Assignment-01</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <section class="header">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark"
+        style="background-color: #00c1d4"
+      >
+        <div class="container">
+          <a href="" class="navbar-brand" >eNno</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="" class="nav-link active-link" style="font-weight: bold;">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link" style="font-weight: bold;">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link" style="font-weight: bold;">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link" style="font-weight: bold;">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Body Content -->
+    <section id="content">
+      <div class="container" style="padding-top: 2rem">
+        <!-- <img src="http://placehold.it/900x350" class="body-image" alt=""> -->
+
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="https://cdn.pp.slimpay.com/blog/2018/10/03175217/DZN-Blog-Hero-900x350-OnlineSignature-v21.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo9H1MoaNTDNFzCd7DyHVyvo44Ob2FufldteulJ1CC0WbV0GuNnSA-11UTd7ugzRU36as&usqp=CAU"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHKjYqvG-woIGQLaFvrUcYxG9zXk6nkmUChTrrMQ6fdlmMtDdCoYo3me08g7z_oB6GMbA&usqp=CAU"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div class="container paragraph" style="padding: 0 15%;">
+            <p class="para-head" style="font-weight: bold;">Multi Purpose Theme</p>
+            <span class="desp">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</span>
+        </div>
+
+        <div class="row" style="text-align: center; padding: 5% 0;">
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Responsive</h5>
+
+                      <p class="card-icon"><i class="far fa-heart fa-2x"></i></p>
+                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                      <a href="#" class="btn btn-light">Read More</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Multi Purpose</h5>
+
+                      <p class="card-icon"><i class="fas fa-desktop fa-2x"></i></i></p>
+                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                      <a href="#" class="btn btn-light">Read More</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Easy Customize</h5>
+
+                      <p class="card-icon"><i class="fas fa-location-arrow fa-2x"></i></p>
+                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                      <a href="#" class="btn btn-light">Read More</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row" style="padding: 5% 0;">
+            <div class="col-lg-4" >
+                <div class="card" >
+                    <div class="card-body" >
+                      <h5 class="card-title" style="text-align: center;color:#00c1d4;">eNno</h5>
+                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title" st>Latest Posts</h5>
+                      <p class="card-text">This is awesome post title</p>
+                      <p class="card-text">Awesome features are awesome</p>
+                      <p class="card-text">Create your awesome website</p>
+                      <p class="card-text">Wow, this is fourth post title</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Stay in touch</h5>
+                      <p class="card-text">
+                          <span><i class="fas fa-envelope"></i></span>
+                          example@gmail.com
+                      </p>
+                      <p class="card-text">
+                        <span><i class="fas fa-phone-alt"></i></span>
+                        +123 123 12 12 123
+                    </p>
+                    <p class="card-text">
+                        <span><i class="fas fa-home"></i></span>
+                        Wipro Limited Doddakannelli, Sarjapur Road Bengaluru - 560 035
+                    </p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+        <div class="container" style="padding-top: 1rem;">
+            <div class="row" style="color: white;">
+                <div class="col-6">
+                  <p style="margin-bottom: 0;">© eNno Theme,All Rights Reserved</p>
+                  <p>Designed by BootstrapMade</p>
+                </div>
+                <div class="col-6" style="text-align: right;">
+                   <p></p>
+                   <span><i class="fab fa-facebook-f foot-icon"></i></span>
+                    <span><i class="fab fa-twitter foot-icon" ></i></span>
+                    <span><i class="fab fa-linkedin-in foot-icon"></i></span>
+                    <span><i class="fab fa-google-plus-g foot-icon"></i></span>
+                  </div>
+            </div>
+        </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+@media only screen and (max-width:1024px) {
+    .carousel-inner{
+        padding-bottom: 10%;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .carousel-inner{
+        padding-bottom: 4%;
+    }
+}
+
+
+.navbar {
+  padding: 0 0;
+}
+
+.active-link {
+  background-color: #0cecdd;
+}
+
+.body-image {
+  width: 1000px;
+  
+  object-fit: contain;
+}
+
+.container{
+    padding: 0 5%;
+}
+
+.paragraph {
+    text-align: center;
+}
+
+.card{
+    border: none;
+}
+
+.card-icon{
+    padding: 2% 4%;
+    color: #0cecdd;
+}
+
+.card-title{
+    padding-bottom: 8%;
+}
+
+#footer{
+    background-color: #00c1d4;
+    
+}
+
+.foot-icon{
+    padding-right: 1rem;
+}
